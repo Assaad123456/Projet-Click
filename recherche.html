@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage Planner - Rechercher un Voyage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Voyage Planner</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Rechercher un voyage</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-hero">
+            <div class="search-hero-content">
+                <h2>Trouvez Votre Prochain Voyage</h2>
+                <p>Recherchez des séjours en fonction de vos préférences et découvrez des destinations incroyables.</p>
+            </div>
+        </section>
+        <section class="search-form">
+            <form>
+                <div class="form-group">
+                    <label for="destination">Destination :</label>
+                    <input type="text" id="destination" name="destination" placeholder="Entrez une destination">
+                </div>
+                <div class="form-group">
+                    <label for="dates">Dates :</label>
+                    <input type="date" id="dates" name="dates">
+                </div>
+                <div class="form-group">
+                    <label for="options">Options :</label>
+                    <select id="options" name="options">
+                        <option value="hebergement">Hébergement</option>
+                        <option value="restauration">Restauration</option>
+                        <option value="activites">Activités</option>
+                        <option value="transport">Transport</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Rechercher</button>
+            </form>
+        </section>
+        <section class="search-results">
+            <h2>Résultats de la Recherche</h2>
+            <div class="results-grid">
+                
+                <div class="result-item">
+                    <img src="uncharted.jpg" alt="Destination 1">
+                    <h3>Destination 1</h3>
+                    <p>Découvrez des paysages magnifiques et des activités inoubliables.</p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="result-item">
+                    <img src="miles.jpg" alt="Destination 2">
+                    <h3>Destination 2</h3>
+                    <p>Profitez d'un séjour relaxant avec des options d'hébergement de qualité.</p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Voyage Planner. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
